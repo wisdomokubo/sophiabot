@@ -27,7 +27,7 @@ with col1:
     st.image(logo, width=50)
 
 with col2:
-    st.subheader("_Conversative AI, SophiaBot_")
+    st.subheader("_Meet Sophia AI_")
 
 st.header(" ")
 with st.sidebar:
