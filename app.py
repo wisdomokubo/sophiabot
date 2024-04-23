@@ -16,18 +16,18 @@ from utils import *
 
 
 st.set_page_config(
-    page_title='WisdomBot Web App',
+    page_title='Sophia AI Languages Tutor',
     layout='wide'
 )
 
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    logo = Image.open("conversative.png")
+    logo = Image.open("sophiabot.png")
     st.image(logo, width=50)
 
 with col2:
-    st.subheader("_Conversative AI, WisdomBot_")
+    st.subheader("_Conversative AI, SophiaBot_")
 
 st.header(" ")
 with st.sidebar:
@@ -39,7 +39,7 @@ if selected == "About":
     st.write(" ")
     st.header(":blue[Chatbot Intro]")
     st.write("""
-             Wisdom is an Indigenous Languages AI Assistant that teaches Languages such as Yoruba, Igbo, Hausa and more. It was developed by Conversative AI, a subsidiary of Okubo Wisdom Legacies.
+             Sophia is an AI Languages Tutor that teaches Languages such as Yoruba, Igbo, Hausa, French, Spanish, Swahili and more. She was developed by Conversative AI, a subsidiary of Okubo Wisdom Legacies.
              """)
     
     st.header(":blue[About the Company]")
@@ -57,7 +57,7 @@ if selected == "About":
 elif selected == "Chatbot":
     
     if 'responses' not in st.session_state:
-        st.session_state['responses'] = ["Hi, I am Wisdom, a bot designed to teach you indigenous languages. How are you?"]
+        st.session_state['responses'] = ["Hi, I am Sophia, your AI languages tutor. How are you?"]
         
     if 'requests' not in st.session_state:
         st.session_state['requests'] = []
@@ -125,5 +125,5 @@ elif selected == "Community Forum":
 
 st.markdown(
     "`Created by` Conversative AI | 2024 | \
-    `Code:` [Github](https://github.com/wisdomokubo/WisdomBot)"
+    `Code:` [Github](https://github.com/wisdomokubo/SophiaBot)"
 )
