@@ -116,6 +116,8 @@ elif selected == "Chatbot":
     st.write(" Link: https://t.me/+crFZeJ4FrHIyYzFk")
     st.header(":blue[Try me!]")
     st.write(" Link: https://t.me/Sophia_languagebot")
+    st.header(":blue[Get the App]")
+    st.write(" Link: https://www.amazon.com/dp/B0CZ584L4X/ref=apps_sf_sta")
 
 
 elif selected == "Community":
