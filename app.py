@@ -45,6 +45,8 @@ if selected == "Welcome":
              """)
     st.header(":blue[Try me!]")
     st.write(" https://t.me/Sophia_languagebot ")
+    st.header(":blue[Get the App]")
+    st.write(" https://www.amazon.com/dp/B0CZ584L4X/ref=apps_sf_sta ")
     st.header(":blue[About the Company]")
     st.write("""
              Conversative AI is an Artificial Intelligence Research company founded in 2023 by Wisdom Okubo. Its Parent Company, Okubo Wisdom Legacies, has a mission of curating Africa's Indigenous and Endangered Languages.
